@@ -1,0 +1,254 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark Mode Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+    background-image: url('../templates/images/stars.jpg'); /* Background galaxy */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #4a90e2;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #4a90e2;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #4a90e2;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+/* Skills Section */
+#skills {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#skills ul li {
+    background-color: #4a90e2;
+    color: #ffffff;
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    transition: background-color 0.5s ease;
+}
+
+#skills ul li:hover {
+    background-color: #010a12;
+}
+
+/* Projects Section */
+#projects {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+}
+
+.project {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+.project:hover{
+    background-color:#333;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.project p {
+    color: #aaa;
+    font-size: 1.1rem;
+}
+
+/* Team Section */
+#team {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#team h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.team-member p {
+    color: #aaa;
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+form label {
+    display: block;
+}
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+form input[type="submit"] {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #357ABD;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-top: 2px solid #4a90e2;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.9rem;
+}

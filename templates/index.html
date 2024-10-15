@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Dom</title>
+    <link rel="stylesheet" href="../static/styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Dom's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li> <!-- Added Team section -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/omkar.jpg" alt="About Me" class="profile-img"> <!-- Add profile image -->
+        <p>Welcome to my portfolio! I am a full stack developer...</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Galaxy Project</h3>
+            <img src="/static/images/galaxy.jpg" alt="Galaxy Image" class="project-img"> <!-- Add galaxy image -->
+            <p>Description of a space-related project...</p>
+        </div>
+        <div class="project">
+            <h3>Mountain Project</h3>
+            <img src="/static/images/mount.jpg" alt="Mountain Image" class="project-img"> <!-- Add mountain image -->
+            <p>Description of a mountain and nature-themed project...</p>
+        </div>
+        <div class="project">
+            <h3>Sunset Project</h3>
+            <img src="/static/images/sky.jpg" alt="Sky Image" class="project-img"> <!-- Add sunset image -->
+            <p>Description of a project that features a colorful sunset...</p>
+        </div>
+    </section>
+
+    <!-- Team Section Highlighting Key Members -->
+    <section id="team">
+        <h2>Important Team Members</h2>
+        <div class="team-member">
+            <h3>Akshay Upashi</h3>
+            <p>Key contributor to the project and backend specialist...</p>
+        </div>
+        <div class="team-member">
+            <h3>Bharatkumar Naik</h3>
+            <p>Contributer for the API, project implementation and compatibility</p>
+        </div>
+        <div class="team-member">
+            <h3>Laxmi Wakkundmath</h3>
+            <p>Lead designer responsible for the UI/UX direction...</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <input type="submit" value="Send">
+        </form>        
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Dom. All rights reserved.</p>
+    </footer>
+</body>
+</html>
